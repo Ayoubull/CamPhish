@@ -66,3 +66,5 @@ const CHAT_ID = '1234567899'; // Replace with your bot's chat ID
 <p float="left">
   <img src="/Preview/Example 1.jpg" width="40%" />
 </p>
+
+## Now can u target any camera without port forwarding or any installation of any comlex Nodejs server or any complex language such as Python, bash..., and runing without machine like Kali Linux or Ubuntu, and without Termux Errors,  ONLY simple host and your telegram account.
