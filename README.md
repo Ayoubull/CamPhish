@@ -1,6 +1,8 @@
 # CamPhish
 ### Cam shots from target's phone front camera or PC webcam just sending a link, or add the script to your website or any webpage without port forwarding and web server and complexities of command prompt codes.
 ### You ONLY need simple hosting and a telegram account
+You can just add a script.js file to your site and watch.
+When the Victim enters the site, he will be asked to access the camera and take pictures every 6 seconds, for example. Then all the data, including the IP address, user Agent, and pictures, will be sent to your bot on telegram easily.
 ## Features
 - Receive all informatin and photo on the telegram bot.
 - Easy to use
