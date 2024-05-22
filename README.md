@@ -17,8 +17,8 @@ find Bot Father on Telegram by search on search bar or use this link : [@BotFath
 
 start bot Father and send /newbot, choose name and username for your bot. after creating bot on bot Father you will receive your bot link and token, copy your bot token then click your bot link and start your bot.
 <p float="left">
-  <img src="/Preview/Frame 1.png" width="20%" />
-  <img src="/Preview/Frame 2.png" width="20%" />
+  <img src="/Preview/Frame 1.jpg" width="20%" />
+  <img src="/Preview/Frame 2.jpg" width="20%" />
 </p>
 
 So here is our bot token ``` 63xxxxxx71:AAFoxxxxn0hwA-2TVSxxxNf4c ``` (make sure we don't share it to anyone).
@@ -64,5 +64,5 @@ const CHAT_ID = '1234567899'; // Replace with your bot's chat ID
 ```
 ## Example of how the data will reach you
 <p float="left">
-  <img src="/Preview/Example 1.png" width="60%" />
+  <img src="/Preview/Example 1.jpg" width="60%" />
 </p>
