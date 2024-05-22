@@ -64,5 +64,5 @@ const CHAT_ID = '1234567899'; // Replace with your bot's chat ID
 ```
 ## Example of how the data will reach you
 <p float="left">
-  <img src="/Preview/Example 1.jpg" width="60%" />
+  <img src="/Preview/Example 1.jpg" width="40%" />
 </p>
