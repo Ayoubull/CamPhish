@@ -20,33 +20,49 @@ start bot Father and send /newbot, choose name and username for your bot. after 
   <img src="/Preview/Frame 1.png" width="20%" />
   <img src="/Preview/Frame 2.png" width="20%" />
 </p>
-So here is our bot token 63xxxxxx71:AAFoxxxxn0hwA-2TVSxxxNf4c (make sure we don't share it to anyone).
-#### Get Chat ID for a bot
- 1. Add our Telegram bot into a channel
 
- 
- 1. Send a message to the channel
- 1. Open this URL  ``` https://api.telegram.org/bot{our_bot_token}/getUpdates ``` 
-We will see a json like so
+So here is our bot token ``` 63xxxxxx71:AAFoxxxxn0hwA-2TVSxxxNf4c ``` (make sure we don't share it to anyone).
 
-```
-{
-  "ok": true,
-  "result": [
+#### 2 - Get Chat ID for a bot
+1. Search and open our new Telegram bot
+1. After well are Click Start or send a message
+1. Open this URL in a browser `https://api.telegram.org/bot{our_bot_token}/getUpdates`   
+    - See we need to prefix our token with a wor `bot`
+    - Eg: `https://api.telegram.org/bot63xxxxxx71:AAFoxxxxn0hwA-2TVSxxxNf4c/getUpdates`
+1. We will see a json like so
+    ```
     {
-      "update_id": 838xxxx36,
-      "channel_post": {...},
-        "chat": {
-          "id": -1001xxxxxx062,
-          "title": "....",
-          "type": "channel"
-        },
-        "date": 1703065989,
-        "text": "test"
-      }
+      "ok": true,
+      "result": [
+        {
+          "update_id": 83xxxxx35,
+          "message": {
+            "message_id": 2643,
+            "from": {...},
+            "chat": {
+              "id": 21xxxxx38,
+              "first_name": "...",
+              "last_name": "...",
+              "username": "@username",
+              "type": "private"
+            },
+            "date": 1703062972,
+            "text": "/start"
+          }
+        }
+      ]
     }
-  ]
-}
+    ```
+1. Check the value of `result.0.message.chat.id`, and here is our Chat ID: `21xxxxx38`
+3. Let's try to send a message: `https://api.telegram.org/bot63xxxxxx71:AAFoxxxxn0hwA-2TVSxxxNf4c/sendMessage?chat_id=21xxxxx38&text=test123`
+4. When we set the bot token and chat id correctly, the message `test123` should be arrived on our Telegram bot chat.
+### Modify script configuration BOT_TOKEN and CHAT_ID
+Now replace the BOT_TOKEN and CHAT_ID keys with you own keys
 ```
-
-Check the value of result.0.channel_post.chat.id, and here is our Chat ID: -1001xxxxxx062
+const BOT_TOKEN = '00000000:XXXXXXXXXX-XXXXXXXXXXXXXXX_XXXX'; // Replace with your bot's TOKEN
+const CHAT_ID = '1234567899'; // Replace with your bot's chat ID
+```
+## Example of how the data will reach you
+<p float="left">
+  <img src="/Preview/Example 1.png" width="60%" />
+</p>
