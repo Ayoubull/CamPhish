@@ -1,5 +1,6 @@
 # CamPhish
-### Cam shots from target's phone front camera or PC webcam just sending a link, or add the script to your website or any webpage without port forwarding and web server.
+### Cam shots from target's phone front camera or PC webcam just sending a link, or add the script to your website or any webpage without port forwarding and web server and complexities of command prompt codes.
+### You ONLY need simple hosting and a telegram account
 ## Features
 - Receive all informatin and photo on the telegram bot.
 - Easy to use
@@ -67,4 +68,5 @@ const CHAT_ID = '1234567899'; // Replace with your bot's chat ID
   <img src="/Preview/Example 1.jpg" width="40%" />
 </p>
 
-## Now can u target any camera without port forwarding or any installation of any comlex Nodejs server or any complex language such as Python, bash..., and runing without machine like Kali Linux or Ubuntu, and without Termux Errors,  ONLY simple host and your telegram account.
+### Now can u target any camera without port forwarding or any installation of any comlex Nodejs server or any complex language such as Python, bash..., and runing without machine like Kali Linux or Ubuntu, and without Termux Errors.
+### You ONLY need simple hosting and a telegram account.
