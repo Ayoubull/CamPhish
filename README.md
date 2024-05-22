@@ -20,3 +20,33 @@ start bot Father and send /newbot, choose name and username for your bot. after 
   <img src="/Preview/Frame 1.png" width="20%" />
   <img src="/Preview/Frame 2.png" width="20%" />
 </p>
+So here is our bot token 63xxxxxx71:AAFoxxxxn0hwA-2TVSxxxNf4c (make sure we don't share it to anyone).
+#### Get Chat ID for a bot
+ 1. Add our Telegram bot into a channel
+
+ 
+ 1. Send a message to the channel
+ 1. Open this URL  ``` https://api.telegram.org/bot{our_bot_token}/getUpdates ``` 
+We will see a json like so
+
+```
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 838xxxx36,
+      "channel_post": {...},
+        "chat": {
+          "id": -1001xxxxxx062,
+          "title": "....",
+          "type": "channel"
+        },
+        "date": 1703065989,
+        "text": "test"
+      }
+    }
+  ]
+}
+```
+
+Check the value of result.0.channel_post.chat.id, and here is our Chat ID: -1001xxxxxx062
